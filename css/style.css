@@ -193,6 +193,7 @@ section a:hover {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  margin: 1rem;
 }
 
 input {
@@ -205,4 +206,10 @@ textarea {
 
 button {
   width: 100px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
